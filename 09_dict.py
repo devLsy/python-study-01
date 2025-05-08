@@ -4,12 +4,16 @@ user = {"name": "ironMan", "job": "프로그래머", "email": "ironMan@gmail.com
 # 사용법(키로 접근)
 # print(user["name"])
 
+# user["power"] = 300
+
+# del user["job"]
+
 # print(user)
 # 요소 추가
-user["age"] = 15
+# user["age"] = 15
 # print(user)
 # 요소 삭제
-# del user["name"]
+# del user["job"]
 # print(user)
 
 # 키만 추출
@@ -30,8 +34,8 @@ user["age"] = 15
 item_list = user.items()
 # 리스트로 변형
 item_list = list(item_list)
-print(item_list)
-print(type(item_list))
-print(item_list[0])
-print(type(item_list[0]))
+# print(item_list)
+# print(type(item_list))
+# print(item_list[0])
+# print(type(item_list[0]))
 

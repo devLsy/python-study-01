@@ -13,20 +13,20 @@ print(food0)
 # food0.remove("김치")
 # print(food0)
 # 인덱스 찾기
-print(food0.count("김치"))
+# print(food0.count("김치"))
 # 몇번 째 인덱스에 있는지
-print(food0.index("김치"))
+# print(food0.index("김치"))
 # 오름차순 정렬
-food0.sort()
-print(food0)
+# food0.sort()
+# print(food0)
 # 내림차순 정렬
-food0.sort(reverse=True)
-print(food0)
+# food0.sort(reverse=True)
+# print(food0)
 
-print(tmp)
+# print(tmp)
 # 0번 째 인덱스 요소의 값 변경
-tmp[0] = "피자"
-print(tmp)
+# tmp[0] = "피자"
+# print(tmp)
 
 
 # food1 = [100, "삼겹살", "감자튀김"]
