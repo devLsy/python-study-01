@@ -7,7 +7,6 @@ age = 30
 # print("안녕하세요. 내 이름은 " + name +"입니다." + "직업은 " + job + "입니다." + "나이는 " + str(age) + "입니다.")
 # -> 문자를 숫자로
 # print(type(int("100")))
-
 print(type("10"))
 print(type(int("10")))
 

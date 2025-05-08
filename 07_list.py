@@ -4,7 +4,6 @@ food0 = ["김치", "삼겹살", "김치", "포도"]
 tmp = ["g", "a", "T", "p"]
 # food0.append("피자")
 print(food0)
-
 # 원하는 인덱스에 추가
 # food0.insert(1, "피자")
 # print(food0)
@@ -48,3 +47,13 @@ print(food0)
 # print(food1[0:2])
 # print(type(food1[0]))
 # print(food1[1][0])
+
+food1 = ["아이언맨","토르","헐크","로키","블랙 위도우"]
+print(food1.count("아이언맨"))
+food1.insert(1, "굿")
+print(food1)
+food1.remove("굿")
+print(food1)
+print(food1.index("헐크"))
+food1.sort(reverse=True)
+print(food1)

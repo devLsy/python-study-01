@@ -1,17 +1,21 @@
 # 딕셔러니(키쌍 조합)
-user = {"name": "ironMan", "job": "프로그래머", "email": "ironMan@gmail.com"}
+# user = {"name": "ironMan", "job": "프로그래머", "email": "ironMan@gmail.com"}
 
+user = {"name": "hulk",
+        "job": "developer",
+        "email": "hulk@naver.com",
+}
+print(user)
 # 사용법(키로 접근)
 # print(user["name"])
-
-# user["power"] = 300
+user["power"] = 300
 
 # del user["job"]
 
-# print(user)
+print(user)
 # 요소 추가
-# user["age"] = 15
-# print(user)
+user["age"] = 15
+print(user)
 # 요소 삭제
 # del user["job"]
 # print(user)
