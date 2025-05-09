@@ -1,15 +1,13 @@
-# 브레이크 포인트, 컨티뉴
-# count = 1
-from itertools import count
-
-# while count < 11:
-# while True:
-#     print(f"{count}바뀌째")
-#     count += 1
-#     if count >= 11:
-#         break
+# 브레이크, 컨티뉴
+count = 1
+#
+while count < 11:
+    print(f"{count}바뀌째")
+    count += 1
+    if count >= 11:
+        break
         # continue
-# print("달리기 끝")
+print("달리기 끝")
 
 # count = 0
 #
@@ -22,6 +20,8 @@ from itertools import count
 #     if count == 20:
 #         break
 # print("달리기 끝")
+
+print("=========================")
 
 for i in range(20):
     if i == 5:

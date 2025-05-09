@@ -1,35 +1,20 @@
 # 클래스
-# class User:
+class User:
     # 생성자
-    # def __init__(self, name, age, job):
-    #     self.name = name
-    #     self.age = age
-    #     self.job = job
-    #     print(f"이름: {self.name}. 나이: {self.age}. 직업: {self.job}")
-    #
-    # def hello(self):
-    #     print(f"Hello, my name is {self.name}. I am a {self.job}.")
-#
-# user1 = User("고길동", 30, "개발자")
-# user2 = User("홍길동", 25, "디자이너")
-#
-# user1.hello()
-# user2.hello()
+    def __init__(self, name, age, job):
+        self.name = name
+        self.age = age
+        self.job = job
+        print(f"이름: {self.name}. 나이: {self.age}. 직업: {self.job}")
 
-# class User:
-#     def __init__(self, name, age, job):
-#         self.name = name
-#         self.age = age
-#         self.job = job
-#         print(f"이름: {self.name}\n 나이: {self.age}\n 직업: {self.job}")
-#
-#     def print_info(self):
-#         print(f"Hello, my info => name: {self.name}, age: {self.age}, job: {self.job}")
-#
-# go = User("고길동", 60, "개발자")
-# ho = User("홍길동", 40, "기획자")
-# go.print_info()
-# ho.print_info()
+    def hello(self):
+        print(f"Hello, my name is {self.name}. I am a {self.job}.")
+
+user1 = User("고길동", 30, "개발자")
+user2 = User("홍길동", 25, "디자이너")
+
+user1.hello()
+user2.hello()
 
 class User:
     def __init__(self, user_info):
@@ -59,3 +44,5 @@ ho.print_info()
 
 go.__str__()
 ho.__str__()
+
+print(go)

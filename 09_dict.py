@@ -21,12 +21,12 @@ print(user)
 # print(user)
 
 # 키만 추출
-# keys_list = user.keys()
+keys_list = user.keys()
 # 리스트로 변형
-# keys_list = list(keys_list)
+keys_list = list(keys_list)
 
-# print(type(keys_list))
-# print(keys_list)
+print(type(keys_list))
+print(keys_list)
 # 값만 추출
 # value_list = user.values()
 # 리스트로 변형(append나 insert를 사용하려면 변환 필요)
@@ -38,7 +38,7 @@ print(user)
 item_list = user.items()
 # 리스트로 변형
 item_list = list(item_list)
-# print(item_list)
+print(item_list)
 # print(type(item_list))
 # print(item_list[0])
 # print(type(item_list[0]))

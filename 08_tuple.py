@@ -1,7 +1,7 @@
 # 튜플
 # food1 = ("피자", "햄버거", "치킨", "라면", "된장찌개")
 # 리스트
-food2 = ["피자", "햄버거", "치킨", "라면", "된장찌개"]
+# food2 = ["피자", "햄버거", "치킨", "라면", "된장찌개"]
 
 # print(type(food1))
 # print(type(food2))
@@ -21,8 +21,8 @@ food1 = ("피자", "햄버거", "치킨")
 food2 = ("라면", "된장찌개")
 
 food3 = food1 + food2
-# print(food3)
-# print(len(food3))
-# print(food3 * 3)
+print(food3)
+print(len(food3))
+print(food3 * 3)
 
 
